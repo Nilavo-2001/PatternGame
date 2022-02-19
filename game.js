@@ -11,7 +11,7 @@ var blockFlash = new Audio("sounds/blue.mp3");
 var inputSound = new Audio("sounds/green.mp3");
 var winner = new Audio("sounds/sucess.mp3");
 var failed = new Audio("sounds/wrong.mp3");
-var gameStart = new Audio("sounds/gameStart.mp3");
+var gameStart = new Audio("sounds/gamestart.mp3");
 
 //start button
 $(".start").click(function (e) {
