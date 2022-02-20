@@ -26,6 +26,7 @@ $(".start").click(function (e) {
     } else {
       startGame();
     }
+    gameStarted = true;
   }
 });
 // to start game after animation
@@ -33,7 +34,6 @@ function startGame() {
   $("#title").text("Level " + lev);
   gameStart.play();
   setTimeout(patternGenerator, 2400);
-  gameStarted = true;
 }
 //to generate a pattern
 function patternGenerator() {
